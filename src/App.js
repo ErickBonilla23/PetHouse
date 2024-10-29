@@ -1,9 +1,17 @@
-import {Hero} from "./Hero.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Hero } from "./Hero.js";
+import { Navbar } from "./Navbar.js";
 
 export default function App() {
   return (
     <div>
-      <Hero/>
+      <BrowserRouter>
+        <Navbar />
+          <Routes>
+            <Route path="/" element={<Hero/>}/>
+            
+          </Routes>
+      </BrowserRouter>
     </div>
   )
 }
