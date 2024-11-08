@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Hero } from "./Hero.js";
 import { Navbar } from "./Navbar.js";
+import { SignIn } from "./SignIn.js";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
         <Navbar />
           <Routes>
             <Route path="/" element={<Hero/>}/>
+            <Route path="/SingnIn.js" element={<SignIn/>}/>
             
           </Routes>
       </BrowserRouter>
