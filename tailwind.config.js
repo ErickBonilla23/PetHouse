@@ -7,10 +7,7 @@ module.exports = {
     extend: {
       colors: {
 
-        customYellow: '#fcd929', 
-
-      },
-
+        customYellow: '#fcd929',
     },
   },
   plugins: [],

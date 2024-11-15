@@ -16,7 +16,7 @@ export const LoginForm = () => {
     return (
         <div>
 
-            <div className="flex items-center justify-center min-h-screen bg-yellow-400 p-4">
+            <div className="flex items-center justify-center min-h-screen bg-sky-300 p-4">
                 <div className="flex bg-white rounded-lg shadow-lg max-w-4xl w-full">
                     {/* Sección del formulario */}
                     <div className="w-1/2 p-8">
@@ -59,7 +59,7 @@ export const LoginForm = () => {
                             </div>
                             <button
                                 type="submit"
-                                className="w-full py-2 bg-indigo-500 text-white font-semibold rounded-lg hover:bg-indigo-600 transition duration-200"
+                                className="w-full py-2 bg-yellow-400 text-white font-semibold rounded-lg hover:bg-sky-300 transition duration-200"
                             >
                                 Login
                             </button>
