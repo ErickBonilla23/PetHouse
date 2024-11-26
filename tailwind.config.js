@@ -1,12 +1,13 @@
 module.exports = {
-
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
-        customYellow: '#fcd929', 
+        customYellow: '#fcd929',
       },
     },
   },
   plugins: [],
-
 }
